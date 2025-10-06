@@ -89,7 +89,7 @@ const Header = ({
               <Icon name="Brain" size={24} color="white" />
             </div>
             <div className="flex flex-col">
-              <h1 className="text-xl font-bold text-text-primary">CogniCare</h1>
+              <h1 className="text-xl font-bold text-text-primary">Memory Mate</h1>
               <span className="text-sm text-text-secondary">
                 Cognitive Assessment
               </span>

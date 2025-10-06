@@ -18,7 +18,7 @@ const UserRegistration = () => {
   const mockUsers = [
     { email: "senior@example.com", password: "SecurePass123!" },
     { email: "john.doe@email.com", password: "MyPassword456!" },
-    { email: "mary.smith@gmail.com", password: "CogniCare789!" },
+    { email: "mary.smith@gmail.com", password: "Memory Mate789!" },
   ];
 
   useEffect(() => {
@@ -82,8 +82,8 @@ const UserRegistration = () => {
       };
 
       // Store user data in localStorage for demo purposes
-      localStorage.setItem("cognicare_user", JSON.stringify(newUser));
-      localStorage.setItem("cognicare_registration_complete", "true");
+      localStorage.setItem("Memory Mate_user", JSON.stringify(newUser));
+      localStorage.setItem("Memory Mate_registration_complete", "true");
 
       if (isVoiceEnabled) {
         const successMessage = new SpeechSynthesisUtterance(

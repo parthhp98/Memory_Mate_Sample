@@ -10,7 +10,7 @@ const WelcomeHeader = ({ className = "" }) => {
           <Icon name="Brain" size={32} color="white" />
         </div>
         <div className="text-left">
-          <h1 className="text-4xl font-bold text-text-primary">CogniCare</h1>
+          <h1 className="text-4xl font-bold text-text-primary">Memory Mate</h1>
           <p className="text-lg text-text-secondary">
             Cognitive Assessment Platform
           </p>

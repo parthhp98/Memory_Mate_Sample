@@ -23,7 +23,7 @@ const AssessmentReport = () => {
   // Function to get user data from localStorage
   const getUserData = () => {
     try {
-      const storedUser = localStorage.getItem("cognicare_user");
+      const storedUser = localStorage.getItem("Memory Mate_user");
       if (storedUser) {
         return JSON.parse(storedUser);
       }
