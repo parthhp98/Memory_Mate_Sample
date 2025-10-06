@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Input from "../../../components/ui/Input";
-import Button from "../../../components/ui/button";
+import Input from "components/ui/input";
+import Button from "components/ui/button";
 import Select from "../../../components/ui/Select";
 import { Checkbox } from "../../../components/ui/Checkbox";
 
