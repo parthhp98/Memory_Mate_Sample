@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Icon from "components/AppIcon";
 import Button from "components/ui/button";
-import Input from "components/ui/Input";
+import Input from "components/ui/input";
 
 const ShareReportModal = ({
   isOpen = false,
