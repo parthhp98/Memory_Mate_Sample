@@ -277,7 +277,7 @@ const AssessmentReport = () => {
         onStageChange={(path) => navigate(path)}
       />
       {/* Main Content */}
-      <main className="pt-20 pb-8">
+      <main className="pt-32 pb-8">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           {/* Quick Navigation */}
           <div className="mb-8">

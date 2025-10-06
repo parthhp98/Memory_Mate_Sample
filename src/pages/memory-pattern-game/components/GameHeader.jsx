@@ -1,6 +1,7 @@
 import React from "react";
 import Icon from "../../../components/AppIcon";
-
+import logo from "assets/images/logo.jpg"
+import Image from "../../../components/AppImage";
 const GameHeader = ({
   currentLevel,
   totalLevels,
@@ -16,8 +17,8 @@ const GameHeader = ({
     >
       {/* Game Title */}
       <div className="flex items-center justify-center space-x-3 mb-6">
-        <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center">
-          <Icon name="Brain" size={24} color="white" />
+        <div className="w-20 h-20€ rounded-xl flex items-center justify-center">
+         <Image src={logo} alt="logo" className="w-full h-full" />
         </div>
         <div className="text-center">
           <h1 className="text-2xl lg:text-3xl font-bold text-card-foreground">

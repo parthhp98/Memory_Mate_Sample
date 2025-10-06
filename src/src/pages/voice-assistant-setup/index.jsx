@@ -25,7 +25,7 @@ const VoiceAssistantSetup = () => {
 
   // Load saved settings from localStorage
   useEffect(() => {
-    const savedSettings = localStorage.getItem("cognicare-voice-settings");
+    const savedSettings = localStorage.getItem("memory mate-voice-settings");
     if (savedSettings) {
       try {
         const settings = JSON.parse(savedSettings);
@@ -52,7 +52,7 @@ const VoiceAssistantSetup = () => {
       volume: volume,
       audioOptions: audioOptions,
     };
-    localStorage.setItem("cognicare-voice-settings", JSON.stringify(settings));
+    localStorage.setItem("memory mate-voice-settings", JSON.stringify(settings));
   }, [isVoiceEnabled, volume, audioOptions]);
 
   const handleVoiceToggle = () => {
@@ -103,7 +103,7 @@ const VoiceAssistantSetup = () => {
       },
     };
     localStorage.setItem(
-      "cognicare-voice-settings",
+      "memory mate-voice-settings",
       JSON.stringify(defaultSettings)
     );
     navigate("/memory-pattern-game");
@@ -129,7 +129,7 @@ const VoiceAssistantSetup = () => {
       />
 
       {/* Main Content */}
-      <main className="pt-20 pb-8">
+      <main className="pt-32 pb-8">
         <div className="max-w-6xl mx-auto px-6 lg:px-8">
           {/* Page Header */}
           <div className="text-center mb-8">

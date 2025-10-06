@@ -1,3 +1,4 @@
+import Button from "components/ui/button";
 import React, { useState, useEffect } from "react";
 
 const GameBoard = ({
