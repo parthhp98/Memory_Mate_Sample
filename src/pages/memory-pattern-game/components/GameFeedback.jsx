@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Icon from "../../../components/AppIcon";
+import Button from "components/ui/button";
 
 const GameFeedback = ({
   feedbackType,

@@ -85,7 +85,7 @@ const TrustSignalFooter = ({ className = "" }) => {
                 </div>
                 <div>
                   <h3 className="font-bold text-surface-foreground">
-                    CogniCare
+                    Memory Mate
                   </h3>
                   <p className="text-xs text-text-secondary">
                     Cognitive Assessment Platform
@@ -183,7 +183,7 @@ const TrustSignalFooter = ({ className = "" }) => {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col sm:flex-row items-center justify-between space-y-2 sm:space-y-0">
             <div className="flex items-center space-x-4 text-xs text-text-secondary">
-              <span>© {currentYear} CogniCare. All rights reserved.</span>
+              <span>© {currentYear} Memory Mate. All rights reserved.</span>
               <span className="hidden sm:inline">•</span>
               <span className="hidden sm:inline">Version 2.1.0</span>
             </div>

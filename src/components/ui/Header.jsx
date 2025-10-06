@@ -1,7 +1,8 @@
 import React, { useState, useContext } from "react";
 import Icon from "../AppIcon";
 import Button from "./button";
-
+import logo from "assets/images/logo.jpg"
+import Image from "../AppImage";
 const AssessmentContext = React.createContext();
 
 const Header = ({
@@ -85,11 +86,11 @@ const Header = ({
         {/* Logo Section */}
         <div className="flex items-center space-x-4">
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-              <Icon name="Brain" size={24} color="white" />
+            <div className="w-16 h-16 rounded-lg flex items-center justify-center">
+         <Image src={logo} alt="logo" className="w-full h-full" />
             </div>
             <div className="flex flex-col">
-              <h1 className="text-xl font-bold text-text-primary">CogniCare</h1>
+              <h1 className="text-xl font-bold text-text-primary">Memory Mate</h1>
               <span className="text-sm text-text-secondary">
                 Cognitive Assessment
               </span>

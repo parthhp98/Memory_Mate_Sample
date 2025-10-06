@@ -369,7 +369,7 @@ const WordRecognitionGame = () => {
         onStageChange={(path) => navigate(path)}
       />
       {/* Main Content */}
-      <main className="flex-1 pt-20 lg:pt-24">
+      <main className="flex-1 pt-32 lg:pt-24">
         <div className="max-w-7xl mx-auto px-6 lg:px-8 py-8">
           {/* Game Header */}
           <div className="text-center mb-8">

@@ -282,7 +282,7 @@ const MemoryPatternGame = () => {
         onStageChange={handleStageChange}
       />
       {/* Main Content */}
-      <main className="flex-1 pt-20 pb-8">
+      <main className="flex-1 pt-32 pb-8">
         <div className="max-w-6xl mx-auto px-6 lg:px-8 space-y-8">
           {/* Game Header */}
           <GameHeader

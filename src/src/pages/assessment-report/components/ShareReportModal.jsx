@@ -63,7 +63,7 @@ const ShareReportModal = ({
     {
       recipient: "Primary Care Doctor",
       subject: `Cognitive Assessment Report - ${patientName}`,
-      message: `Dear Doctor,\n\nI have completed a cognitive assessment through CogniCare and would like to share the results with you for review during my next appointment.\n\nThe assessment was conducted on October 4, 2025, and includes detailed analysis of memory and cognitive function.\n\nPlease let me know if you need any additional information.\n\nBest regards,\n${patientName}`,
+      message: `Dear Doctor,\n\nI have completed a cognitive assessment through Memory Mate and would like to share the results with you for review during my next appointment.\n\nThe assessment was conducted on October 4, 2025, and includes detailed analysis of memory and cognitive function.\n\nPlease let me know if you need any additional information.\n\nBest regards,\n${patientName}`,
     },
     {
       recipient: "Neurologist",

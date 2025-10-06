@@ -14,7 +14,7 @@ const VoiceTestPanel = ({
 
   const testPhrases = {
     welcome:
-      "Welcome to CogniCare! I'm here to help guide you through your cognitive assessment.",
+      "Welcome to Memory Mate! I'm here to help guide you through your cognitive assessment.",
     gameRules:
       "In this memory game, you'll see a sequence of colored buttons. Watch carefully and repeat the pattern.",
     completion:

@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef } from "react";
 import Icon from "../../../components/AppIcon";
+import Button from "components/ui/button";
 
 const VoiceInstructions = ({
   isVoiceEnabled,
