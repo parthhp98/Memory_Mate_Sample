@@ -123,7 +123,7 @@ const Header = ({
                     index <= currentStageIndex
                       ? "text-primary font-medium"
                       : "text-text-secondary"
-                  } hover:bg-muted focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2`}
+                  } hover:bg-muted text-white hover:text-primary focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2`}
                   disabled={index > currentStageIndex + 1}
                 >
                   {stage?.label}
